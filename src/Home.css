@@ -1,0 +1,70 @@
+body{
+    font-family: sans-serif;
+    color: #3c3939;
+    background-color: rgb(219, 218, 218);
+
+}
+.cv{
+    display: flex;
+    flex-wrap: wrap;
+    width: 825px;
+    margin-left: 350px;
+    margin-right: 100px;
+    background-color: #fff;
+    box-shadow: 0 8px 15px 0 rgba(0, 0,0, .7);
+
+}
+.row {  
+    display: flex;
+    flex-wrap: wrap;
+  }
+ 
+  .side {
+    flex: 30%;
+   
+  }
+  
+  .main-1,.main-2 {
+    flex: 70%;
+   
+  
+  }
+  
+.profile-card,.side-card{
+    width: 400px;
+    margin: 5px;
+    background: #fff;
+    box-shadow: 0 4px 10px 0 rgba(0, 0,0, .5);
+}
+.image-container{
+    position: relative;
+}
+.ico{
+    color: #4b4fe2;
+    margin-right: 16px;
+
+}
+.main-container{
+    padding: 20px;
+}
+.skill-bar{
+    background-color: #bdc9ea;
+    border-radius: 16px;
+}
+.progress-bar{
+    padding: 0.1em 16px;
+    border-radius: 16px;
+    text-align: center;
+    color:#fff;
+    background-color: #4b4fe2;
+}
+.footer{
+    background-color: #4b4fe2;
+    padding: 20px;
+    width:100%;
+    height: 50px;
+    margin: 10px;
+}
+.footer-ico{
+    text-align: center;
+}
